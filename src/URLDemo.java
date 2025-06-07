@@ -11,13 +11,6 @@ public class URLDemo {
             System.out.println("Port Number: " + url.getPort());
             System.out.println("File Name: " + url.getFile());
 
-            /*
-            InetAddress ip = InetAddress.getByName("bachoco.com");
-            System.out.println("Host Name: " + ip.getHostName());
-            System.out.println("IP Address: " + ip.getHostAddress());
-
-             */
-
         }
         catch (Exception e){
             System.out.println(e);
